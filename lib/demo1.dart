@@ -9,6 +9,13 @@ class Demo1 extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Demo1"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
+      body: const Center(
+        child: Text("heheheh"),
+      ),
     );
   }
 }
